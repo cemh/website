@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!-- setup our page to be responsive.  -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <title>   Dinamik Soru        </title>
+
+    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <!-- <script src="mycod.js"> </script>-->
+<script>
+      var user_name;
+      var awesome_name;
+      // user_name= prompt("enter your name");
+       if(user_name=="dave"){
+          alert("great name");
+        //  awesome_name=true;
+        }
+</script>
+</head>
+<body>
+  <!--  <h1>Hello World!</h1>
+    <p>trying out bootstrap</p>  -->
+
+  <!-- nav bar application -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+         <div class="navbar-header">
+              <a class="navbar-brand" href="#"> Dinamik Soru</a>
+              <!--adding responsive navbar -->
+              <button type="button" class="navbar-toggle collapsed"
+                data-toggle="collapse"
+                 data-target="#navbar"
+                  aria-expanded="false"
+                   aria-controls="navbar">
+                <span class="sr-only"> Toggle Navigation </span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+          </div>
+          <!-- id navbar used as data target -->
+          <div id="navbar" class="navbar-collapse collapse">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">
+                      <span class="glyphicon glyphicon-home"
+                        aria-hidden="true"></span> Ana Sayfa </a></li>
+
+                      <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign"
+                         aria-hidden="true"></span>  Deneme </a></li>
+                      <!-- creating a dropdown Menu -->
+                      <li class="dropdown">
+                          <a href="#" class="dropdown-toggle"
+                           data-toggle="dropdown"
+                            role="button"
+                             aria-haspopup="true"
+                              aria-expanded="false">
+                              <span class="glyphicon glyphicon-list-alt"
+                                aria-hidden="true"></span>
+                            Menu
+                            <span class="caret"> </span></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#"> Appetizers</a></li>
+                              <li><a href="#"> Main Courses</a></li>
+                              <li><a href="#"> Drinks</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li class="dropdown-header">Specials</li>
+                              <li><a href="#"> Lunch Buffet</a></li>
+                              <li><a href="#"> Weekend Brunch</a></li>
+                            </ul>
+                      </li>
+                  </ul>
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"> Sign in </a></li>
+                    <li><a href="#"> Contact </a></li>
+                  </ul>
+          </div>
+    </div>
+</nav>
+
+<header class="jumbotron">
+     <div class="container">
+       <div class="row row-header">
+         <!--screen divided to 12 columns
+            xs for xtra small screens-->
+         <div class="col-xs-12 col-sm-8">
+           <h1>Dinamik soru sistemi </h1>
+           <p style="padding:40px;"></p>
+           <p>we take from worlds best.</p>
+           <div class="col-xs-12 col-sm-4">
+             <!-- for logo -->
+           </div>
+         </div>
+       </div>
+       </div>
+</header>
+   <div class="container">
+        <div class="row row-content">
+            <div class="col-xs-12 col-sm-3">
+              <p style="padding:20px;"></p>
+              <h3 align=center> Our Culinary</h3>
+              </div>
+            <div class="col-xs-12 col-sm-9">
+              <h2> Uthappizza</h2>
+              <p> pancake and italian pizza topped with olives.</p>
+              <p><a href="#"> more &raquo;</a></p>
+            </div>
+
+            <div>
+              <div class="col-xs-12 col-sm-3">
+                <p style="padding:20px;"></p>
+                <h3 align=center> This month promotions</h3>
+              </div>
+                <div class="col-xs-12 col-sm-9">
+                  <h2> Weekend grand buffet</h2>
+                  <p> five salads and five desserts.</p>
+                  <p><a href="#"> more &raquo;</a></p>
+                </div>
+              </div>
+        </div>
+   </div>
+<footer class="row-footer">
+     <div class="container">
+       <div class="row">
+              <div class="col-xs-12 col-sm-3">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#"> Home</a></li>
+                  <li><a href="#"> About</a></li>
+                  <li><a href="#"> Menu</a></li>
+                  <li><a href="#"> Contact</a></li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-5">
+                <h5>Our Adress</h5>
+                <address>
+                  121,asdflkadfj <br>
+                  asdfl Hong kong <br>
+                  <i class="fa fa-phone"></i>: 293943498348<br>
+                  <i class="fa fa-envelope"></i>:
+                   <a href="mailto:confusion@food.net">confusion@food.net </a>
+              </div>
+              <div class="col-xs-12 col-sm-4">
+                  <div style="padding:40px 10px;">
+                      <a class="btn btn-social-icon btn-google-plus"
+                         href="http://www.google.com/+">
+                         <i class="fa fa-google-plus"></i></a>
+                      <a class="btn btn-social-icon btn-facebook"
+                            href="http://www.facebook.com/profile.php?id=">
+                            <i class="fa fa-facebook"></i></a>
+                      <a class="btn btn-social-icon btn-linkedin"
+                            href="http://www.linkedin.com/in/">
+                            <i class="fa fa-linkedin"></i></a>
+                      <a class="btn btn-social-icon btn-twitter"
+                                  href="http://www.twitter.com">
+                                  <i class="fa fa-twitter"></i></a>
+                      <a class="btn btn-social-icon btn-youtube"
+                            href="http://www.google.com/+">
+                          <i class="fa fa-youtube"></i></a>
+                      <a class="btn btn-social-icon"
+                                href="mailto:">
+                              <i class="fa fa-envelope-o"></i></a>
+                  </div>
+              </div>
+        </div>
+        <div class ="col-xs-12">
+            <p style="padding:10px;"></p>
+            <P align=center> @ Copyright 2017 Ristorante Confusion </p>
+        </div>
+    </div>
+ </footer>
+<!--   <script>
+      suprise();
+   </script>
+-->
+<!-- at the end of body adding the jscript library. -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/angular.min.js"></script>
+
+</body>
+
+</html>
